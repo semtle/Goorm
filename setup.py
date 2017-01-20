@@ -12,7 +12,6 @@ setup(
     install_requires=['matplotlib', 'numpy', 'Pillow'],
     ext_modules=[Extension("goorm.query_integral_image",
                            ["goorm/query_integral_image.c"])],
-    scripts=['goorm/wordcloud_cli.py'],
     packages=['goorm'],
     package_data={'goorm': [
         'fonts/*.ttf',
