@@ -14,13 +14,13 @@ sh INSTALL
 ## 사용법
 
 ```bash
-python goorm.py cat.txt cat.png
+python3 goorm.py cat.txt cat.png
 ```
 
 ![cat](/examples/cat.png)
 
 ```bash
-python goorm.py food.txt apple.png
+python3 goorm.py food.txt apple.png
 ```
 
 ![food](/examples/apple.png)
