@@ -27,7 +27,7 @@ from PIL import ImageFont
 
 from .query_integral_image import query_integral_image
 from collections import Counter
-from tag import Mecab
+from .tag import Mecab
 
 mecab = Mecab()
 item1 = itemgetter(1)
