@@ -4,8 +4,8 @@ Python package for Korean wordcloud generation with morphological analysis
 ## Installation
 
 ```bash
-python setup.py build
-python setup.py install
+git clone https://github.com/nyanye/Goorm.git
+sh INSTALL
 ```
 
 ## Usage
@@ -14,3 +14,10 @@ python setup.py install
 python goorm.py cat.txt cat.png
 ```
 
+![cat](/examples/cat.png)
+
+```bash
+python goorm.py food.txt apple.png
+```
+
+![food](/examples/apple.png)
