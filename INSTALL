@@ -1,0 +1,6 @@
+#!/bin/bash
+$DICPATH = "/usr/local/lib/mecab/dic"
+mkdir -p $DICPATH
+cp -rf mecab-ko-dic $DICPATH
+python setup.py build
+python setup.py install
