@@ -1,5 +1,5 @@
 # Goorm
-Python package for Korean wordcloud generation with morphological analysis
+Python program for Korean wordcloud generation with morphological analysis  
 
 ## Installation
 
@@ -21,3 +21,8 @@ python goorm.py food.txt apple.png
 ```
 
 ![food](/examples/apple.png)
+
+## TODO
+
+Build package.  
+Legacy support.  
